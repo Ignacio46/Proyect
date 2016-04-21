@@ -1,0 +1,21 @@
+C:\Users\snuggle\AppData\Local\Temporary Projects\Dibujarecta\bin\Debug\Dibujarecta.exe
+C:\Users\snuggle\AppData\Local\Temporary Projects\Dibujarecta\bin\Debug\Dibujarecta.pdb
+C:\Users\snuggle\AppData\Local\Temporary Projects\Dibujarecta\obj\x86\Debug\Dibujarecta.Form1.resources
+C:\Users\snuggle\AppData\Local\Temporary Projects\Dibujarecta\obj\x86\Debug\Dibujarecta.Properties.Resources.resources
+C:\Users\snuggle\AppData\Local\Temporary Projects\Dibujarecta\obj\x86\Debug\Dibujarecta.csproj.GenerateResource.Cache
+C:\Users\snuggle\AppData\Local\Temporary Projects\Dibujarecta\obj\x86\Debug\Dibujarecta.exe
+C:\Users\snuggle\AppData\Local\Temporary Projects\Dibujarecta\obj\x86\Debug\Dibujarecta.pdb
+C:\Users\snuggle\documents\visual studio 2010\Projects\Dibujarecta\Dibujarecta\obj\x86\Debug\Dibujarecta.exe
+C:\Users\snuggle\documents\visual studio 2010\Projects\Dibujarecta\Dibujarecta\obj\x86\Debug\Dibujarecta.pdb
+C:\Users\snuggle\Documents\Visual Studio 2010\Projects\Dibujarecta\Dibujarecta\bin\Debug\Dibujarecta.exe
+C:\Users\snuggle\Documents\Visual Studio 2010\Projects\Dibujarecta\Dibujarecta\bin\Debug\Dibujarecta.pdb
+C:\Users\snuggle\Documents\Visual Studio 2010\Projects\Dibujarecta\Dibujarecta\obj\x86\Debug\Dibujarecta.Form1.resources
+C:\Users\snuggle\Documents\Visual Studio 2010\Projects\Dibujarecta\Dibujarecta\obj\x86\Debug\Dibujarecta.Properties.Resources.resources
+C:\Users\snuggle\Documents\Visual Studio 2010\Projects\Dibujarecta\Dibujarecta\obj\x86\Debug\Dibujarecta.csproj.GenerateResource.Cache
+C:\Users\snuggle\Documents\Visual Studio 2010\Projects\Proyecto- Dibujando\Dibujarecta\obj\x86\Debug\Dibujarecta.exe
+C:\Users\snuggle\Documents\Visual Studio 2010\Projects\Proyecto- Dibujando\Dibujarecta\obj\x86\Debug\Dibujarecta.pdb
+C:\Users\snuggle\Documents\Visual Studio 2010\Projects\Proyecto- Dibujando\Dibujarecta\bin\Debug\Dibujarecta.exe
+C:\Users\snuggle\Documents\Visual Studio 2010\Projects\Proyecto- Dibujando\Dibujarecta\bin\Debug\Dibujarecta.pdb
+C:\Users\snuggle\Documents\Visual Studio 2010\Projects\Proyecto- Dibujando\Dibujarecta\obj\x86\Debug\Dibujarecta.Form1.resources
+C:\Users\snuggle\Documents\Visual Studio 2010\Projects\Proyecto- Dibujando\Dibujarecta\obj\x86\Debug\Dibujarecta.Properties.Resources.resources
+C:\Users\snuggle\Documents\Visual Studio 2010\Projects\Proyecto- Dibujando\Dibujarecta\obj\x86\Debug\Dibujarecta.csproj.GenerateResource.Cache
