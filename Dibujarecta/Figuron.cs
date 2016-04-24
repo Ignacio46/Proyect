@@ -5,12 +5,12 @@ using System.Windows.Forms;
 
 namespace Dibujarecta
 {
-   abstract class Figuron
+   abstract class Figuron: IComparable
     {
-        public int X, Y;
+        protected int X, Y;
         public Pen pluma;
-        public int ancho, largo;
-        public Color color;
+        protected int ancho, largo;
+        protected Color color;
         public SolidBrush brocha;
 
         public Figuron(int x, int y)
@@ -26,6 +26,13 @@ namespace Dibujarecta
             largo = ancho;
         }
         public abstract void Dibuja(Form f);
+
+        public int CompareTo(object obj)
+        {
+
+            return this.largo.CompareTo(((Figuron)obj).largo);
+        }
+
     }
 
 

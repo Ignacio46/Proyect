@@ -14,6 +14,7 @@ namespace Dibujarecta
     {
         enum TipoFigura { Rectangulo, Circulo };
 
+       
         private TipoFigura figura_actual;
         private List<Figuron> rectangulos;
         
@@ -23,7 +24,7 @@ namespace Dibujarecta
 
             rectangulos = new List<Figuron>();
             InitializeComponent();
-            
+            circuloToolStripMenuItem.Checked = true;
 
          }   
 
@@ -55,13 +56,30 @@ namespace Dibujarecta
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            foreach (Figuron f in rectangulos)
-            {
-                f.Dibuja(this);
-            }
+            foreach (Figuron r in rectangulos)
+                r.Dibuja(this);
         }
 
         private void rojoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void circuloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.circuloToolStripMenuItem.Checked = true;
+            this.rectanguloToolStripMenuItem.Checked = false;
+            figura_actual = TipoFigura.Circulo;
+        }
+
+        private void rectanguloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.rectanguloToolStripMenuItem.Checked = true;
+            this.circuloToolStripMenuItem.Checked = false;
+            figura_actual = TipoFigura.Rectangulo;
+        }
+
+        private void ordenarToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
