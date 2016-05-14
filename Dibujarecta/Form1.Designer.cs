@@ -37,6 +37,8 @@
             this.circuloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rectanguloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ordenarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.fondoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,9 +47,10 @@
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.colorToolStripMenuItem,
             this.figuraToolStripMenuItem,
-            this.ordenarToolStripMenuItem});
+            this.ordenarToolStripMenuItem,
+            this.fondoToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(153, 92);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(153, 114);
             // 
             // colorToolStripMenuItem
             // 
@@ -55,21 +58,22 @@
             this.rojoToolStripMenuItem,
             this.verdeToolStripMenuItem});
             this.colorToolStripMenuItem.Name = "colorToolStripMenuItem";
-            this.colorToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.colorToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.colorToolStripMenuItem.Text = "Color";
             // 
             // rojoToolStripMenuItem
             // 
             this.rojoToolStripMenuItem.Name = "rojoToolStripMenuItem";
-            this.rojoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.rojoToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
             this.rojoToolStripMenuItem.Text = "Rojo";
             this.rojoToolStripMenuItem.Click += new System.EventHandler(this.rojoToolStripMenuItem_Click);
             // 
             // verdeToolStripMenuItem
             // 
             this.verdeToolStripMenuItem.Name = "verdeToolStripMenuItem";
-            this.verdeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.verdeToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
             this.verdeToolStripMenuItem.Text = "Verde";
+            this.verdeToolStripMenuItem.Click += new System.EventHandler(this.verdeToolStripMenuItem_Click);
             // 
             // figuraToolStripMenuItem
             // 
@@ -77,29 +81,37 @@
             this.circuloToolStripMenuItem,
             this.rectanguloToolStripMenuItem});
             this.figuraToolStripMenuItem.Name = "figuraToolStripMenuItem";
-            this.figuraToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.figuraToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.figuraToolStripMenuItem.Text = "Figura";
+            this.figuraToolStripMenuItem.Click += new System.EventHandler(this.figuraToolStripMenuItem_Click);
             // 
             // circuloToolStripMenuItem
             // 
             this.circuloToolStripMenuItem.Name = "circuloToolStripMenuItem";
-            this.circuloToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.circuloToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.circuloToolStripMenuItem.Text = "Circulo";
             this.circuloToolStripMenuItem.Click += new System.EventHandler(this.circuloToolStripMenuItem_Click);
             // 
             // rectanguloToolStripMenuItem
             // 
             this.rectanguloToolStripMenuItem.Name = "rectanguloToolStripMenuItem";
-            this.rectanguloToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.rectanguloToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.rectanguloToolStripMenuItem.Text = "Rectangulo";
             this.rectanguloToolStripMenuItem.Click += new System.EventHandler(this.rectanguloToolStripMenuItem_Click);
             // 
             // ordenarToolStripMenuItem
             // 
             this.ordenarToolStripMenuItem.Name = "ordenarToolStripMenuItem";
-            this.ordenarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.ordenarToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.ordenarToolStripMenuItem.Text = "Ordenar";
             this.ordenarToolStripMenuItem.Click += new System.EventHandler(this.ordenarToolStripMenuItem_Click);
+            // 
+            // fondoToolStripMenuItem
+            // 
+            this.fondoToolStripMenuItem.Name = "fondoToolStripMenuItem";
+            this.fondoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.fondoToolStripMenuItem.Text = "Fondo";
+            this.fondoToolStripMenuItem.Click += new System.EventHandler(this.fondoToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -125,6 +137,8 @@
         private System.Windows.Forms.ToolStripMenuItem circuloToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem rectanguloToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ordenarToolStripMenuItem;
+        private System.Windows.Forms.ColorDialog colorDialog1;
+        private System.Windows.Forms.ToolStripMenuItem fondoToolStripMenuItem;
     }
 }
 

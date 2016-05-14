@@ -8,7 +8,7 @@ namespace Dibujarecta
    abstract class Figuron: IComparable
     {
         protected int X, Y;
-        public Pen pluma;
+        protected Pen pluma;
         protected int ancho, largo;
         protected Color color;
         public SolidBrush brocha;
@@ -18,8 +18,8 @@ namespace Dibujarecta
             X = x;
             Y = y;
 
-            brocha = new SolidBrush(Color.Blue);
-            pluma = new Pen(Color.Aqua, 2);
+            brocha = new SolidBrush(Color.White);
+            pluma = new Pen(Color.Black);
 
             Random rnd = new Random();
             ancho = rnd.Next(5, 70);

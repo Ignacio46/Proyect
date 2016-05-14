@@ -10,11 +10,13 @@ using System.Threading.Tasks;
 
 namespace Dibujarecta
 {
+    
+    
     public partial class Form1 : Form
     {
         enum TipoFigura { Rectangulo, Circulo };
 
-       
+        public SolidBrush broch;
         private TipoFigura figura_actual;
         private List<Figuron> rectangulos;
         
@@ -60,10 +62,18 @@ namespace Dibujarecta
                 r.Dibuja(this);
         }
 
-        private void rojoToolStripMenuItem_Click(object sender, EventArgs e)
+        public void rojoToolStripMenuItem_Click(object sender, EventArgs e)
         {
+           
+           
+            this.rojoToolStripMenuItem.Checked = true;
+            this.verdeToolStripMenuItem.Checked = false;
+            broch = new SolidBrush(Color.Red);
+
             
         }
+
+       
 
         private void circuloToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -81,7 +91,32 @@ namespace Dibujarecta
 
         private void ordenarToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            rectangulos.Sort();
+            rectangulos.Reverse();
+            this.Refresh();
+           
 
         }
+
+        private void figuraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void verdeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.verdeToolStripMenuItem.Checked = true;
+            this.rojoToolStripMenuItem.Checked = false;
+        }
+
+        private void fondoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (colorDialog1.ShowDialog() == DialogResult.OK)
+            {
+                BackColor = colorDialog1.Color;
+            }
+        }
+
+       
     }
 }
